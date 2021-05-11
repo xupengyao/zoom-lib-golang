@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	apiURI     = "api.zoom.us"
+	apiURI     = "meeting.zomo.com.cn"
 	apiVersion = "/v2"
 )
 
