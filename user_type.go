@@ -133,3 +133,11 @@ type User struct {
 	Token                            string   `json:"token"`
 	ZPK                              string   `json:"zpk"`
 }
+
+type UserSettings struct {
+	Feature UserSettingsFeature `json:"feature"`
+}
+
+type UserSettingsFeature struct {
+	MeetingCapacity int `json:"meeting_capacity"`
+}
